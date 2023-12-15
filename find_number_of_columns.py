@@ -13,4 +13,3 @@ def find_number_of_columns(data):
     return len(list(data)[0])
 
 # Read the csv file
-print(find_number_of_columns('data.csv'))
