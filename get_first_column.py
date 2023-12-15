@@ -11,9 +11,8 @@ def get_first_column(data):
     data = csv.reader(f)
 
     first_column = []
-    for i in data:
-        temp = (', '.join(i)).split(',')
-        first_column.append(temp[0])
+    for row in data:
+        first_column.append(row[0])
     
     return first_column
     
