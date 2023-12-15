@@ -13,4 +13,3 @@ def get_first_row(data):
    return list(data)[0]
 
 # Read the csv file
-print(get_first_row('data.csv'))
